@@ -1,0 +1,21 @@
+package com.init.users.entitys;
+
+public class User {
+	private String cedula;
+	private String name;
+	
+	//Métodos de acceso
+	public long getCedula() {
+		return cedula;
+	}
+	public void setId(long id) {
+		this.cedula = cedula;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

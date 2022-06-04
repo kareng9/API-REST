@@ -1,0 +1,13 @@
+package com.init.users.rest;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController	//Dice que esta clase va a ser servicio REST
+@RequestMapping("/") //En que URL se va a exponer este servicio o metodos de esta clase
+public class UsersREST {
+	public String hello() {
+		return "Hello World";
+	}
+
+}

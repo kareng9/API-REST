@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=user-api
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.7.0
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Mi primera API 
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=init.users
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=user-api
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.init.users
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

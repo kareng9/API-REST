@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate: org.hibernate.dialect.MySQL.Dialect
+  datasource:
+ 	driverClassName: com.mysql.cj.jdbc.Driver
+    url: C:\Users\Karen\AppData\Local\Temp\~vs147.sql
+    username: 
+    password: 
+    

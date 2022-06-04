@@ -1,0 +1,8 @@
+package com.init.users.rest;
+
+public class UsersREST {
+	public String hello() {
+		return "Hello World";
+	}
+
+}

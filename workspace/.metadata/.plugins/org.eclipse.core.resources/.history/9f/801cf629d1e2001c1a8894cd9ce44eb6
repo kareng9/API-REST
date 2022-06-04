@@ -1,0 +1,31 @@
+package com.init.users.rest;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.init.users.entitys.User;
+
+@RestController	//Dice que esta clase va a ser servicio REST
+@RequestMapping("users") //En que URL se va a exponer este servicio o metodos de esta clase
+public class UsersREST {
+	
+	@GetMapping
+	public ResponseEntity<User> getUser(){  //Regresar Objetos
+		User user = new User();
+		user.setId(1);
+		user.setName("Camila");
+		return ResponseEntity.ok(user);
+
+	}
+	//Estan comentados los dos porque era solo una prueba
+	//@GetMapping //Dice que este servicio va a estar disponible mediante el metodo GET
+	//Como solo esta activo @GetMapping se espera que el servicio este expuesto en //localhost:8080 que es la raíz
+	//@RequestMapping(value="hello", method=RequestMethod.GET) //
+	public String hello() {
+		return "Hello World";
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.init.users.dao;
+
+public class ProductsDAO {
+
+}
